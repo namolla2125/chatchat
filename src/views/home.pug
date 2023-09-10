@@ -1,0 +1,31 @@
+doctype html
+html(lang="ko")
+  head 
+    meta(charset="UTF-8")
+    meta(http-equit="X-UA-Compatible", content="IE=edge")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    title 민스코드
+    link(rel="stylesheet", href="public/css/index.css")
+  body 
+    header
+      h1 민스코드
+      br
+      br
+    main
+      div#welcome
+        form.welcome-form
+          input.welcome-input(placeholder="방 이름을 입력하세요", required, type="text")
+          button.welcome-button 방 들어가기
+        h4 생성된 방 :
+        ul
+      div#room
+        h3 
+        form#name.name-form
+          input.name-input(placeholder="닉네임을 입력하세요", required, type="text") 
+          button.name-button 저장하기
+        ul 
+        form#msg.msg-form
+          input.msg-input(placeholder="메시지를 입력하세요", required, type="text")
+          button.msg-button 보내기
+    script(src="/socket.io/socket.io.js") 
+    script(src="/public/js/app.js")
