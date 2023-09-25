@@ -2,7 +2,6 @@
   "name": "chat",
   "version": "1.0.0",
   "description": "namolla`s zoom clone coding",
-  "main": "src/server.js",
   "license": "MIT",
   "scripts": {
     "dev": "nodemon"
