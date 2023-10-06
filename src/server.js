@@ -1,7 +1,11 @@
-import http from "http";
-import socketIo from "socket.io";
-import express from "express";
+//import http from "http";
+//import socketIo from "socket.io";
+//import express from "express";
 //import { disconnect } from "process";
+var http = require("http");
+var socketIo = require("socket.io");
+var express = require("express");
+var disconnect = require("process");
 
 const app = express();
 
