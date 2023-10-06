@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "namolla`s zoom clone coding",
   "license": "MIT",
+  "type": "module",
   "scripts": {
     "dev": "nodemon"
   },
